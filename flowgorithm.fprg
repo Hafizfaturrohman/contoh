@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-10 08:28:53 PM"/>
+        <attribute name="created" value="TEVOT1ZPO0xBUFRPUC1GU01RTkhEUzsyMDIyLTEwLTEwOzA4OjAyOjExIFBNOzI4NTI="/>
+        <attribute name="edited" value="TEVOT1ZPO0xBUFRPUC1GU01RTkhEUzsyMDIyLTEwLTEwOzA4OjI4OjUzIFBNOzU7Mjk3OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nilai1, nilai2, terbesar" type="Integer" array="False" size=""/>
+            <input variable="nilai1"/>
+            <input variable="nilai2"/>
+            <if expression="nilai1 &gt; nilai2">
+                <then>
+                    <assign variable="terbesar" expression="nilai1"/>
+                </then>
+                <else>
+                    <assign variable="terbesar" expression="nilai2"/>
+                </else>
+            </if>
+            <output expression="&quot;nilai terbesar dari &quot;&amp; nilai1&amp;&quot; dan &quot;&amp;nilai2&amp;&quot; adalah &quot;&amp; terbesar" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
